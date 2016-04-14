@@ -1,0 +1,98 @@
+body {
+	margin: 5%;
+}
+
+h1, h2, h3 {
+	text-align: center;
+}
+
+h1 {
+	margin: 2%;
+}
+
+a {
+	text-decoration: none;
+}
+
+footer {
+	margin-top: 10%;
+	text-align: center;
+}
+
+/* TABLE */
+
+.table {
+ width: 80%;
+ margin: auto;
+}
+
+th, td {
+  text-align:center;
+  width: auto;
+ }
+
+/* NAV */
+nav {
+	width: auto;
+	text-align: center;
+}
+
+.banner {
+	background: url("../images/banner-film.jpg") no-repeat center;
+	height: 120px;
+	margin: 2%;
+}
+
+
+li {
+	display: inline-block;
+	margin: 15px;
+}
+
+ul {
+	margin:auto;
+	/*width: 500px;*/
+}
+
+.glyphicon {
+	padding-left: 10%;
+}
+
+/* FORMULAIRE */
+
+label {
+	display : inline-block;
+	width: 100px;	
+	margin: 5px;
+}
+
+
+form {
+	width: 30%;
+	margin:auto;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.button {
+	width:150px;
+	margin:auto;
+}
+
+.success {
+	color: green;
+}
+
+.fail {
+	color: red;
+}
+
+
+.banner h1 {
+	position: relative;
+	right: 25%;
+	top: 30%;
+	color: white;
+	text-shadow:  0px 0px 15px white; 
+	font-size: 3.2em;
+}
