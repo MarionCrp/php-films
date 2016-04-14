@@ -1,5 +1,5 @@
 	<h1> Assigner un acteur à un film </h1>
-      <form action="" method="post">
+      <form action="#" method="post">
       	<div class="form-group">
 	        <label for="id_acteur"> Acteur </label>
 	          <select name="id_acteur" class="form-control" id="id_acteur">

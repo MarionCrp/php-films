@@ -19,12 +19,18 @@ function displayCasting(CastingRepository $casting_repository, $id_film) {
 		<tr>
 			<th>Prénom	Nom</th>
 		</tr>
-	<?php }
+	<?php 
 		foreach($arrayCasting as $actor){
-			echo '<h3><tr><td><a href="index.php?page=acteur.php&id_acteur=' .$actor->getIdActor(). '">' .$actor->getPrenom(). ' '  .$actor->getNom(). '</a></td>
-						</tr></h3>';
+			echo '<tr>
+						<td>
+							<a href="index.php?page=acteur.php&id_acteur=' .$actor->getIdActor(). '">' .$actor->getPrenom(). ' '  .strtoupper($actor->getNom()). '</a>
+						</td>
+				  </tr>';
+	
 	}
 	?> </table> <?php
+}
+	
 }
 
 			

@@ -65,9 +65,11 @@ if(isset($_GET['page'])) {
       include_once(__DIR__.'/views/'.$page);
 
       ?>
-    </body>
+
     <footer>
       <hr>
       <small> by Marion Craipeau</small>
     </footer>
+  </body>
+    
 </html>

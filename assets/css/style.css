@@ -24,7 +24,9 @@ footer {
 .table {
  width: 80%;
  margin: auto;
+ margin-top: 3%;
 }
+
 
 th, td {
   text-align:center;
