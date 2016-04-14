@@ -1,7 +1,7 @@
  <?php
  //Instenciation de l'objet $pdo qui va permettre la connexion à la base de donnée. 
  	try {
-      $pdo = new PDO('mysql:host=iutdoua-webetu.univ-lyon1.fr;dbname=p1502716;charset=utf8','p1502716','240770');
+      $pdo = new PDO('mysql:host=localhost;dbname=films;charset=utf8','root','');
        return $pdo;
       }
       catch (Exception $e) 
